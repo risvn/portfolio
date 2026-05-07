@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Hello Django</h1>
+
+    <p>{{ message }}</p>
+
+    {% for post in posts %}
+        <div>
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.description }}</p>
+            <small>{{ post.author }}</small>
+        </div>
+    {% endfor %}
+</body>
+</html>

@@ -71,7 +71,7 @@ admin.py-> admin.site.register(model)
 we can use forms from django or use json to get the data render html or return html
 with csrf tokken
 
-
+``` bash
 
 portfolio/
 │
@@ -140,7 +140,7 @@ portfolio/
 │
 └── docs/
 
-
+```
 
 
 
